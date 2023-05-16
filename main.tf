@@ -3,6 +3,7 @@
  location            = var.location
  resource_group_name = var.resource_group_name
  dns_prefix          = var.prefix
+ role_based_access_control_enabled = true
 
  default_node_pool {
      name            = var.pool_name
